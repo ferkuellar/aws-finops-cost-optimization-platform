@@ -6,17 +6,36 @@ This project demonstrates how modern cloud architecture must integrate financial
 
 ---
 
+# Live Demo
+
+Executive dashboard running on AWS:
+
+http://54.235.55.3:8501
+
+---
+
+# Dashboard Preview
+
+## Executive Cost Overview
+
+![Dashboard Main](docs/screenshots/dashboard-main.png)
+
+## Cost Insights & Anomaly Detection
+
+![Dashboard Insights](docs/screenshots/dashboard-insights.png)
+
+---
+
 # Architecture Overview
 
 Cost dataset (CUR-like simulation)
 → Data Lake pattern (S3 as source of truth)
 → Python FinOps analytics engine
-→ KPI & anomaly detection
+→ KPI generation & anomaly detection
 → Executive dashboard (Streamlit)
 → Production-style deployment on AWS EC2
 
-Live demo:
-http://54.235.55.3:8501
+This architecture reflects how real organizations build cost visibility and governance into cloud operations.
 
 ---
 
@@ -25,36 +44,36 @@ http://54.235.55.3:8501
 Most companies believe they have a cloud strategy.
 In reality, they only have a growing monthly bill.
 
-This project was designed to demonstrate how cloud architects can implement cost visibility, anomaly detection and governance from day one.
-
 Cloud without financial control becomes operational debt.
+
+This project demonstrates how cloud architects can implement cost visibility, anomaly detection and governance from day one.
 
 ---
 
 # Key Capabilities
 
-### Cost visibility
+## Cost visibility
 
 * Total cloud spend tracking
 * Cost by service
 * Cost by environment (prod vs dev)
 * Cost by region
 
-### FinOps anomaly detection
+## FinOps anomaly detection
 
 * NAT Gateway cost spikes
 * Service-level cost dominance
 * Environment cost anomalies
 * Waste signal detection
 
-### Executive dashboard
+## Executive dashboard
 
 * Real-time visualization
 * Cost allocation visibility
 * KPI summaries for leadership
 * Operational insights
 
-### Production-style deployment
+## Production-style deployment
 
 * Hosted on AWS EC2
 * Persistent service using systemd
