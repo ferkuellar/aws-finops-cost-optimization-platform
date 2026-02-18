@@ -1,0 +1,9 @@
+date,service,region,environment,cost
+2026-01-01,EC2,us-east-1,prod,120
+2026-01-01,S3,us-east-1,prod,40
+2026-01-01,RDS,us-east-1,prod,90
+2026-01-01,NAT Gateway,us-east-1,prod,150
+2026-01-02,EC2,us-east-1,dev,60
+2026-01-02,S3,us-east-1,dev,25
+2026-01-02,RDS,us-east-1,dev,30
+2026-01-02,NAT Gateway,us-east-1,prod,160

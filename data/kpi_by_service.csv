@@ -1,0 +1,5 @@
+service,cost
+NAT Gateway,310
+EC2,180
+RDS,120
+S3,65

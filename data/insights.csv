@@ -1,0 +1,4 @@
+insight
+Top cost driver: NAT Gateway = $310.00 (46% of total).
+"NAT Gateway spike detected on 2026-01-01: $150.00. Review egress patterns, NAT usage, and private subnet routing."
+"NAT Gateway spike detected on 2026-01-02: $160.00. Review egress patterns, NAT usage, and private subnet routing."
